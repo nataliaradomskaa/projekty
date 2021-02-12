@@ -1,0 +1,368 @@
+body {
+    margin: 0;
+    background-color: #fdfafa;
+    color: #23302a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+h1.logo {
+    font-size: 44px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 4em;
+    text-shadow: 0 0 10px #7386bb;
+    /* #109e10; */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.zaloguj,
+.wyloguj {
+    padding: 4px 12px;
+    display: block;
+    background-color: #a0b5f0;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 3px;
+    margin-top: 4px;
+    margin-right: 6px;
+    /* border: 1px #23302a dotted; */
+    border: 1px #7386bb solid;
+}
+
+.zaloguj:hover,
+.wyloguj:hover {
+    background-color: #7386bb;
+}
+
+.zaloguj>a,
+.wyloguj>a {
+    text-decoration: none;
+    color: #fff;
+    /* color: #23302a; */
+    /* text-transform: uppercase; */
+    font-size: 15px;
+}
+
+
+/* .zaloguj a:hover,
+.wyloguj a:hover {
+    color: #23302a;
+} */
+
+.nav1 {
+    background-color: #a0b5f0;
+    text-align: center;
+}
+
+.nav2 {
+    border-top: 1px dotted #23302a;
+    background-color: #a0b5f0;
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    min-height: 38px;
+    line-height: 200%;
+}
+
+.menu>li {
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-left: 1px double #23302a;
+}
+
+.menu>li:last-child {
+    border-right: 1px double #23302a;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #23302a;
+}
+
+.menu1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.menu1>li {
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.menu1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu1 a:hover {
+    color: #23302a;
+}
+
+.info {
+    width: 100%;
+    /* background-color: #cc97d6; */
+    background-color: #a0b5f0;
+}
+
+.pomoc {
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+.pomoc ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.pomoc a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.pomoc a:hover {
+    color: #23302a;
+}
+
+.media {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    float: left;
+    color: #f6f8f7;
+}
+
+.mediapom {
+    width: 33%;
+    margin-left: 33%;
+    margin-top: 10px;
+}
+
+.fb {
+    width: 33%;
+    float: left;
+}
+
+.insta {
+    width: 33%;
+    float: left;
+}
+
+.yt {
+    width: 33%;
+    float: left;
+}
+
+.copyright {
+    text-align: right;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+/* Rejestracja i logowanie */
+
+.formularz {
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    height: auto;
+    position: relative;
+    /* border: 1px solid #a0b5f0; */
+}
+
+.tytul {
+    position: absolute;
+    top: -10px;
+    background: #a0b5f0;
+    color: #fff;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+
+.form {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form .label {
+    font-weight: 600;
+    font-size: 15px;
+    color: #23302a;
+}
+
+.form .input {
+    margin: 5px 0 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #01c2c2;
+    color: #3e3e40;
+    font-size: 12px;
+    outline: none;
+    border-radius: 3px;
+}
+
+.button {
+    background-color: #a0b5f0;
+    border: none;
+    padding: 12px 32px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.button>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button a:hover {
+    color: #23302a;
+}
+
+.container {
+    padding: 2rem 0rem;
+}
+
+
+/* .table-image {
+    td,
+    th {
+        vertical-align: middle;
+    }
+} */
+
+tr:first-child {
+    border-top: hidden;
+}
+
+.wysrodkuj {
+    text-align: center;
+}
+
+.karnety {
+    margin-top: 20px;
+}
+
+.zdjecie {
+    margin: 5px 0 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #3e3e40;
+    font-size: 12px;
+    outline: none;
+    border-radius: 3px;
+}
+
+.produkt {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 30%;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.karnet {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    padding-right: 30%;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.koszyk {
+    padding: 6px 14px;
+    display: block;
+    background-color: #a0b5f0;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    border-radius: 4px;
+    margin-right: 90px;
+}
+
+.koszyk:hover {
+    background-color: #7386bb;
+}
+
+.koszyk>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.formularz2 {
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    height: auto;
+    position: relative;
+    /* border: 1px solid #a0b5f0; */
+}
+
+#wynik {
+    color: #000;
+}
+
+.lorem {
+    padding-top: 50px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    text-align: justify;
+}
+
+.promocja {
+    width: 100%;
+    text-align: center;
+}
+
+.reklama {
+    float: left;
+}
+
+.glowna {
+    max-width: 100%;
+    height: auto;
+}
