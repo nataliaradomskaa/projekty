@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="tv_powitalny">Witaj w naszej aplikacji Messenger !</string>
+    <string name="btn_rejestracja">Rejestracja</string>
+    <string name="btn_logowanie">Logowanie</string>
+    <string name="title_activity_rejestracja">Rejestracja</string>
+    <string name="pt_login_rejestracja">Login</string>
+    <string name="pass_haslo_rejestracja">Hasło</string>
+    <string name="btn_zarejestruj">Zarejestruj</string>
+    <string name="pt_login_logowanie">Zaloguj</string>
+    <string name="pass_logowanie_haslo">Hasło</string>
+    <string name="iv_logo">Logo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="textview_progress_logowanie">TextView</string>
+    <string name="btn_wyslij_wiadomosci">Wyślij</string>
+    <string name="etext_tresc_wiadomosci">Treść wiadomości</string>
+    <string name="open_chat">Otwórz czat</string>
+    <string name="witaj">Witaj! Zarejestruj się by móc dołączyć do czatu.</string>
+    <string name="zaakceptuj">Akceptuję</string>
+    <string name="regulamin"><a href="https://www.google.com/search?q=regulamin">regulamin</a></string>
+    <string name="rejestruj">Zarejestruj</string>
+
+    <string name="about_play_store">Oceń nas na Google Play</string>
+    <string name="about_github">Zobacz inne projekty na GitHubie</string>
+    <string name="about_facebook">Polub nas na Facebooku</string>
+    <string name="about_contact_us">Skontaktuj się z nami</string>
+</resources>
+
+
+
